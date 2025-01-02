@@ -1,0 +1,56 @@
+body {
+  font-family: "Agu Display", serif;
+  background-color: #f4f6f9;
+  color: #0b0a0a;
+  line-height: 1.6;
+  padding: 20px;
+}
+.heading{
+
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 7rem;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+  
+}
+
+/* Full-screen container for the video */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures the video stays behind the content */
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover; /* Ensures the video covers the entire screen */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Basic styles for the content */
+.App {
+  position: relative;
+  z-index: 1;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  padding: 20px;
+}
+
+.App h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+
+
